@@ -8,7 +8,20 @@
 }
 
 h1 {
-  color:green;
+  color:#5585b5;
+  font-size:35px;
+}
+
+.SearchWeather body {
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #5585b5;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -18,7 +31,11 @@ h1 {
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(
+    89deg,
+    rgb(253, 220, 155) 26.2%,
+    rgb(255, 215, 165) 48.5%
+  );  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +43,16 @@ h1 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  background: lightgray;
+  color: #113f67;
+  padding: 5px;
+  border-radius: 8px 10px;
+  cursor: pointer;
 }
 
 .App-link {
